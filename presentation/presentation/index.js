@@ -117,19 +117,25 @@ export default class Presentation extends React.Component {
 
 
           <Slide transition={["zoom", "fade"]} bgColor="primary" notes="use thunk to fire actions when your request promises finish">
+            <Heading size={4} caps textColor="black" textFont="primary">
+              Redux-Thunk
+            </Heading>
             <CodePane
               lang="jsx"
               source={require("raw!../assets/thunk-async.example")}
-              margin="-100px 0 0"
+              margin="20px 0 0"
             />
           </Slide>
 
 
           <Slide transition={["zoom", "fade"]} bgColor="primary" notes="use think to check some state before firing actions">
+            <Heading size={4} caps textColor="black" textFont="primary">
+              Conditional Actions
+            </Heading>
             <CodePane
               lang="jsx"
               source={require("raw!../assets/thunk-cond.example")}
-              margin="-100px 0 0"
+              margin="20px 0 0"
             />
           </Slide>
 

@@ -8,12 +8,14 @@ export default class Deck extends Component {
       deck: {
         width: '18%',
         border: 'black 2px solid',
-        height: '165px',
+        height: '185px',
         borderRadius: '10px',
         float: 'right',
-        boxShadow: '4px 4px grey, 7px 7px black',
-        background: 'url("http://ca.dev.conjuringarts.org/wp-content/uploads/2011/09/Angel-Back-Squeezers-Red.jpg")',
-        backgroundSize: '98%'
+        boxShadow: '4px 4px grey, 7px 7px black'
+      },
+      image: {
+        width: '100%',
+        height: '100%'
       }
     }
   }
@@ -25,7 +27,9 @@ export default class Deck extends Component {
   }
 
   render() {
-    return <div style={this.getStyle().deck}></div>;
+    return <div style={this.getStyle().deck}>
+      <img style={this.getStyle().image} src='http://ca.dev.conjuringarts.org/wp-content/uploads/2011/09/Angel-Back-Squeezers-Red.jpg' />
+    </div>;
   }
 }
 

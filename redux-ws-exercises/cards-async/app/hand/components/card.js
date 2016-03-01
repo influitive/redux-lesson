@@ -6,7 +6,7 @@ export default class Card extends Component {
       inner: {
         width: '18%',
         border: 'black 2px solid',
-        height: '165px',
+        height: '185px',
         borderRadius: '10px',
         display: 'flex',
         alignItems: 'center',

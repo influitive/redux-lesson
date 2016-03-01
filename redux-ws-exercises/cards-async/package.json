@@ -1,0 +1,27 @@
+{
+  "name": "async-cards",
+  "version": "1.0.0",
+  "description": "Learning redux async",
+  "main": "main.js",
+  "scripts": {
+    "start": "kotatsu serve --presets es2015,react,react-hmre,stage-0 main.js"
+  },
+  "author": "Jesse Abramson",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.9.1",
+    "babel": "^6.5.2",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "kotatsu": "^0.12.1",
+    "react": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1",
+    "redux-thunk": "^1.0.3"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}

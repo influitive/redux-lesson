@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "kotatsu serve --index ./twiter/index.html --presets es2015,react,react-hmre,stage-0 ./twiter/main.js"
+    "start": "kotatsu serve --index ./index.html --presets es2015,react,react-hmre,stage-0 ./main.js"
   },
   "author": "",
   "license": "ISC",
